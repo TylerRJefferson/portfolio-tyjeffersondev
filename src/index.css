@@ -4,6 +4,7 @@
 
 header img{
   filter: drop-shadow(0 0 10px red) invert(1);
+  width: 200px;
 }
 
 .btn {

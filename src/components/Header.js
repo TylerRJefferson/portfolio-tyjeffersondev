@@ -7,10 +7,10 @@ const Header = () => {
     <header className='py-8'>
       <div className='container mx-auto'>
         <div>
-          {/* logo */}
           <a href="#">
-            <img src={Logo} alt="logo" />
+            <img src={Logo} alt="Tyler Jefferson" />
           </a>
+          <button className='btn btn-sm'>Work with me</button>
         </div>
       </div>
     </header>
