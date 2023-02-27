@@ -24,7 +24,7 @@ const Banner = () => {
                 sequence={[
                   'Passionate developer',
                   2000,
-                  'Highly motivated worker',
+                  'otivated worker',
                   2000,
                   'Team player',
                   2000
@@ -34,6 +34,25 @@ const Banner = () => {
                 wrapper='span'
                 repeat={Infinity}
               />
+            </div>
+            <p>
+              I am primarily a MERN Stack JavaScript developer. I have a lot of love for coding, and strive to learn new languages and technologies whenever the opportunity presents itself!
+            </p>
+            <div>
+              <button className='btn btn-lg'>Contact Me</button>
+              <a href="#" className='text-gradient btn-link'>My Portfolio</a>
+            </div>
+            {/* socials */}
+            <div>
+              <a href="#">
+                <FaGithub />
+              </a>
+              <a href="#">
+                <FaLinkedin />
+              </a>
+              <a href="#">
+                <FaInstagram />
+              </a>
             </div>
           </div>
           {/* image */}
