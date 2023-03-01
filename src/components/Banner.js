@@ -12,7 +12,7 @@ import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[80vh] lg:min-h-[73vh] flex items-center' id='home'>
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* text */}
@@ -22,7 +22,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[55px] font-bold leading-[0.8] lg:text-[100px]'
+              className='text-[46px] font-bold leading-[0.8] lg:text-[82px]'
             >
               TYLER <span>JEFFERSON</span>
             </motion.h1>
@@ -31,7 +31,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-6 text-[36px] lg:text-[48px] font-secondary font-semibold uppercase leading-[1]'
+              className='mb-6 text-[30px] lg:text-[42px] font-secondary font-semibold uppercase leading-[1]'
             >
               <span className='text-white mr-3'>I am a</span>
               <TypeAnimation
@@ -94,7 +94,7 @@ const Banner = () => {
             variants={fadeIn('down', 0.5)}
             initial='hidden'
             whileInView={'show'}
-            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'
+            className='hidden lg:flex flex-1 max-w-[220px] lg:max-w-[362px]'
           >
             <img src={Image} alt="profile image" />
           </motion.div>
