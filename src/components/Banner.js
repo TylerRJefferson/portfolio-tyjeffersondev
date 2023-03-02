@@ -56,7 +56,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
-              I am primarily a MERN Stack JavaScript developer. I have a lot of love for coding, and strive to learn new languages and technologies whenever the opportunity presents itself!
+              I am primarily a MERN Stack developer. I have a lot of love for coding, and strive to learn new languages and technologies whenever the opportunity presents itself!
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
