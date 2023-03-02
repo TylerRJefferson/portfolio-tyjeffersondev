@@ -1,10 +1,18 @@
 import React from 'react';
+// countup
+import CountUp from 'react-countup';
+// intersection observer
+import { useInView } from 'react-intersection-observer';
+// motion
+import { motion } from 'framer-motion';
+// variant
+import { fadeIn } from '../variants';
 
 const About = () => {
   return (
-    <div className='section' id='about'>
+    <section className='section' id='about'>
       About
-    </div>
+    </section>
   );
 };
 
