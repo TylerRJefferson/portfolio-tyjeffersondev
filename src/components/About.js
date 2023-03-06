@@ -17,9 +17,17 @@ const About = () => {
       <div className='container mx-auto'>
         <div>
           {/* img */}
-          <div>img here</div>
+          <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div>
           {/* text */}
-          <div>text here</div>
+          <div>
+            <h2>About me.</h2>
+            <h3>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, suscipit!
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio facilis aliquam mollitia, reiciendis veritatis labore at cupiditate doloribus, et natus modi consequuntur explicabo rem.
+            </p>
+          </div>
         </div>
       </div>
     </section>
