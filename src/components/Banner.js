@@ -78,13 +78,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
-              <a href="https://github.com/TylerRJefferson">
+              <a href="https://github.com/TylerRJefferson" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/tylerjeffersondev/">
+              <a href="https://www.linkedin.com/in/tylerjeffersondev/" target="_blank">
                 <FaLinkedin />
               </a>
-              <a href="https://www.instagram.com/tyler.mk3st/">
+              <a href="https://www.instagram.com/tyler.mk3st/" target="_blank">
                 <FaInstagram />
               </a>
             </motion.div>
