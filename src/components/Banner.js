@@ -78,13 +78,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
-              <a href="https://github.com/TylerRJefferson" target="_blank">
+              <a href="https://github.com/TylerRJefferson" target="_blank" rel="noreferrer">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/tylerjeffersondev/" target="_blank">
+              <a href="https://www.linkedin.com/in/tylerjeffersondev/" target="_blank" rel="noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="https://www.instagram.com/tyler.mk3st/" target="_blank">
+              <a href="https://www.instagram.com/tyler.mk3st/" target="_blank" rel="noreferrer">
                 <FaInstagram />
               </a>
             </motion.div>
@@ -96,7 +96,7 @@ const Banner = () => {
             whileInView={'show'}
             className='hidden lg:flex flex-1 max-w-[220px] lg:max-w-[362px]'
           >
-            <img src={Image} alt="profile image" />
+            <img src={Image} alt="Tyler Jefferson" />
           </motion.div>
         </div>
       </div>
