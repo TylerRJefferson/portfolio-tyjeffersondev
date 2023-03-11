@@ -17,7 +17,7 @@ const About = () => {
       <div className='container mx-auto'>
         <div>
           {/* img */}
-          <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div>
+          {/* <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div> */}
           {/* text */}
           <div>
             <h2>About me.</h2>
@@ -27,6 +27,14 @@ const About = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio facilis aliquam mollitia, reiciendis veritatis labore at cupiditate doloribus, et natus modi consequuntur explicabo rem.
             </p>
+            {/* stats */}
+            <div>
+              <div>
+                <div>
+                  <CountUp start={0} end={13} duration={3} />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
