@@ -17,21 +17,44 @@ const About = () => {
       <div className='container mx-auto'>
         <div>
           {/* img */}
-          {/* <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div> */}
+          <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div>
           {/* text */}
           <div>
             <h2>About me.</h2>
             <h3>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, suscipit!
+              I'm a Freelance Full Stack Developer with approximately 2 years of experience.
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio facilis aliquam mollitia, reiciendis veritatis labore at cupiditate doloribus, et natus modi consequuntur explicabo rem.
+              I love coding and all things computer / tech related. Technology has been a passion of mine for as long as I can remember and I am very excited to break into the Software Developer Industry!
             </p>
             {/* stats */}
-            <div>
+            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
-                <div>
-                  <CountUp start={0} end={13} duration={3} />
+                <div className='text-[40px] font-tertiary text-gradient mb-2 mt-2'>
+                  {inView ? <CountUp start={0} end={2} duration={1} /> : null}
+                </div>
+                <div className='font-primary text-sm tracking-[2px]'>
+                  Years of <br />
+                  experience
+                </div>
+              </div>
+              <div>
+                <div className='text-[40px] font-tertiary text-gradient mb-2 mt-2'>
+                  {inView ? <CountUp start={0} end={1} duration={1} /> : null}
+                  k+
+                </div>
+                <div className='font-primary text-sm tracking-[2px]'>
+                  Hours spent <br />
+                  coding
+                </div>
+              </div>
+              <div>
+                <div className='text-[40px] font-tertiary text-gradient mb-2 mt-2'>
+                  {inView ? <CountUp start={0} end={8} duration={1} /> : null}
+                </div>
+                <div className='font-primary text-sm tracking-[2px]'>
+                  Projects <br />
+                  completed
                 </div>
               </div>
             </div>
