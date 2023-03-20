@@ -15,16 +15,16 @@ const About = () => {
   return (
     <section className='section' id='about' ref={ref}>
       <div className='container mx-auto'>
-        <div>
+        <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
           {/* img */}
           <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div>
           {/* text */}
-          <div>
-            <h2>About me.</h2>
-            <h3>
+          <div className='flex-1'>
+            <h2 className='h2 text-accent'>About me.</h2>
+            <h3 className='h3 mb-4'>
               I'm a Freelance Full Stack Developer with approximately 2 years of experience.
             </h3>
-            <p>
+            <p className='mb-6'>
               I love coding and all things computer / tech related. Technology has been a passion of mine for as long as I can remember and I am very excited to break into the Software Developer Industry!
             </p>
             {/* stats */}
